@@ -8,12 +8,10 @@ A blood clot forms in a blood vessel as a result of damage to the vessel wall. A
 
 Blood flows through the vessel at a constant speed \(u\). The dynamics of blood are described by the Navier-Stokes equations for an incompressible fluid:
 
-\[
-\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u},
-\]
-\[
-\nabla \cdot \mathbf{u} = 0.
-\]
+\begin{align*}
+\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} &= -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u}, \\
+\nabla \cdot \mathbf{u} &= 0.
+\end{align*}
 
 Where:
 - \( \mathbf{u} \) — blood speed,
