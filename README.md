@@ -115,3 +115,9 @@ where:
 $\( E_{\text{adhesion}} \)$ depends on the interaction between platelets and the vessel wall,
 $\( E_{\text{flow}} \)$ depends on blood speed and pressure.
 
+## Contributing
+
+If you have any suggestions or improvements for the scripts, feel free to open a pull request (or you can email me: karina_urazova@icloud.com) or create an issue on the repository.
+
+***
+**Thank you for your interest in the Modellind trombs project. I hope this framework proves valuable for your research and applications.**
