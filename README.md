@@ -39,12 +39,12 @@ Blood flows through the vessel at a constant speed $\(u\)$. The dynamics of bloo
 \end{align*}
 ```
 where:
-```math
-\( \mathbf{u} \) — blood speed,
-\( p \) — pressure,
-\( \rho \) — blood density,
-\( \nu \) — kinematic viscosity.
-```
+
+$\( \mathbf{u} \)$ — blood speed,
+$\( p \)$ — pressure,
+$\( \rho \)$ — blood density,
+$\( \nu \)$ — kinematic viscosity.
+
 ## Platelet activation
 
 Platelets are activated upon contact with a damaged vessel wall. The concentration of activated platelets $\(C_p\)$ is described by the reaction-diffusion equation:
@@ -55,19 +55,19 @@ Platelets are activated upon contact with a damaged vessel wall. The concentrati
 \end{equation*}
 ```
 where:
-```math
- \( D_p \) — platelet diffusion coefficient,
- \( R_p \) — rate of platelet activation, which depends on the concentration of thrombin \(\theta\):
-```
+
+ $\( D_p \)$ — platelet diffusion coefficient,
+ $\( R_p \)$ — rate of platelet activation, which depends on the concentration of thrombin \(\theta\):
+
 ```math
 \begin{equation*}
 R_p = k_p \theta,
 \end{equation*}
 ```
 where:
-```math
- \( k_p \) — activation rate constant.
-```
+
+ $\( k_p \)$ — activation rate constant.
+
 ## Thrombin formation
 
 Thrombin $\(\theta\)$ is formed as a result of the coagulation cascade and is described by the equation:
@@ -77,19 +77,19 @@ Thrombin $\(\theta\)$ is formed as a result of the coagulation cascade and is de
 \end{equation*}
 ```
 where:
-```math
-\( D_\theta \) — thrombin diffusion coefficient,
-\( R_\theta \) — the rate of thrombin formation, which depends on the concentration of activated platelets:
-```
+
+$\( D_\theta \)$ — thrombin diffusion coefficient,
+$\( R_\theta \)$ — the rate of thrombin formation, which depends on the concentration of activated platelets:
+
 ```math
 \begin{equation*}
 R_\theta = k_\theta C_p,
 \end{equation*}
 ```
 where:
-```math
-\( k_\theta \) — thrombin formation rate constant.
-```
+
+$\( k_\theta \)$ — thrombin formation rate constant.
+
 ## Formation of fibrin network
 
 The fibrin network $\(\psi\)$ is formed under the influence of thrombin and is described by the equation:
@@ -99,9 +99,9 @@ The fibrin network $\(\psi\)$ is formed under the influence of thrombin and is d
 \end{equation*}
 ```
 where:
-```math
-\( \kappa \) — fibrin formation rate constant.
-```
+
+$\( \kappa \)$ — fibrin formation rate constant.
+
 ## Platelet adhesion
 
 The adhesion of platelets to the site of injury and to each other is described using the Cellular Potts Model (CPM). The energy of the system $\(E\)$ includes the energy of adhesion and the energy associated with blood flow:
@@ -111,7 +111,7 @@ E = E_{\text{adhesion}} + E_{\text{flow}},
 \end{equation*}
 ```
 where:
-```math
-\( E_{\text{adhesion}} \) depends on the interaction between platelets and the vessel wall,
-\( E_{\text{flow}} \) depends on blood speed and pressure.
-```
+
+$\( E_{\text{adhesion}} \)$ depends on the interaction between platelets and the vessel wall,
+$\( E_{\text{flow}} \)$ depends on blood speed and pressure.
+
