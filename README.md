@@ -22,6 +22,7 @@ git clone https://github.com/karinaurazova/modelling_trombs.git
 - `2dmodellingtromb.ipynb`: this script simulates changes in the concentration of platelets, thrombin and fibrin
 
 3. Follow changes in the concentration of platelets, thrombin and fibrin
+   ![](https://github.com/karinaurazova/modelling_trombs/blob/main/animation-ezgif.com-video-to-gif-converter.gif)
 
 # Simulation of thrombus growth in a blood vessel
 
